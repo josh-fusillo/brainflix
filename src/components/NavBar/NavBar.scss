@@ -1,0 +1,136 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir";
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+.nav{
+    height: 12.563rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include tablet {
+        height: 5rem;
+        width: 100%;
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+    @include tablet {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    @include desktop {
+        width: 100%;
+    }
+
+    &__upload-circle-wrapper {
+        display: flex;
+    }
+
+    &__anchor {
+        display: inline-block;
+        width: 7rem;
+    }
+    
+    &__logo {
+        height: 2rem;
+        margin: 1rem auto;
+        padding-right: 1rem;       
+
+        @include tablet { 
+            margin: initial;          
+            margin-top: 1rem;           
+            margin-left: .5rem;
+        }
+
+        @include desktop {
+            margin-left: 7rem;
+        }
+    }
+
+    &__search-style {
+        background-image: url('../../assets/Icons/SVG/Icon-search.svg');
+        background-repeat: no-repeat;
+        background-position-x: .75rem;
+        background-position-y: 1rem;
+        padding: .9rem;
+        padding-left: 2.35rem;
+        padding-right: 5rem;
+        border-radius: .2rem; 
+        border: solid $grey-light 2px;
+        
+        @include tablet {
+            margin-top: 1rem;
+            margin-left: 9rem;
+            padding-right: 3.5rem;
+        }
+
+        @include desktop {
+            margin-left: 29rem;
+        }
+             
+                
+    }
+
+    &__upload-button {
+        padding: 1rem 5rem;
+        border-radius: .25rem;
+        background-color: $blue-light;
+        color: white;
+        font-weight: 100;        
+        border-style: solid;
+        border: .3rem;  
+        margin: 1rem 1.45rem 0 .2rem;  
+        background-image: url('../../assets/Icons/SVG/Icon-upload.svg');
+        background-repeat: no-repeat;
+        background-position-x: 3rem;
+        background-position-y: 1rem;  
+        font-family: "Avenir-Bold"; 
+
+        @include tablet {
+            padding: 1rem 1rem 1rem 2rem;
+            background-position-x: .7rem;
+            background-position-y: 1rem; 
+            margin-bottom: .1rem;
+        }
+    }
+
+    &__circle-image {
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        background-image: url('../../assets/Images/Mohan-muruge.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 1rem .4rem 0 0;
+
+        @include desktop {
+            margin-right: 8rem;
+        }
+        
+    }
+
+
+
+
+}

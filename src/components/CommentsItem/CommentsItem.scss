@@ -1,0 +1,81 @@
+@import '../../styles/partials/mixins';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.commentsitem {
+    margin-left: auto;
+    margin-right: auto;
+
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+
+
+    }
+
+    &__name-date-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1rem;
+        
+        margin-right: auto;
+    }
+
+    &__name {
+        margin: auto;
+        margin-right: .5rem;
+        font-weight: bold;
+        font-size: .8rem;
+        margin-top: 2rem;
+    }
+
+    &__date {
+        color: $grey-normal;
+        font-size: .85rem;
+        text-align: right;
+        position: absolute;
+        right: 2rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+
+        @include tablet {
+            position: relative;
+        }
+
+    }
+
+    &__circle-image {
+        background-color: $grey-light;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 1.25rem;
+
+        @include tablet {
+            margin-left: 0;
+        }
+        
+    }
+
+    &__text-wrapper {
+        border-bottom: solid $grey-light 2px;
+
+    }
+
+    &__commentitem {
+        text-align: left;
+        width: 86%;
+        margin-left: 3rem;
+        font-size: .8rem;
+        line-height: 1.25rem;
+
+        
+    }
+
+
+}

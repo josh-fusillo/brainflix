@@ -1,0 +1,49 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+.nextvideo {
+
+    &__section {
+        padding-bottom: 2rem;
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+
+    &__text-wrapper {
+        width: 50%;
+        text-align: left;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-decoration: none;
+        
+    }
+
+    &__title {
+        margin-top: 0;
+        font-size: .9rem;
+        font-weight: bold;
+        
+    }
+
+    &__author {
+        font-size: .8rem;
+    }
+
+    &__image {
+        height: 6rem;
+        width: 8rem;
+        border-radius: 1rem;
+        margin-left: 1rem; 
+        
+    }
+}

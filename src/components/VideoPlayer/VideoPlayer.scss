@@ -1,0 +1,147 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+.video {
+
+    @include tablet {
+        height: 24.65rem;
+        background-color: black;
+    }
+
+    @include desktop {
+        height: 27.75rem;
+        
+    }
+
+    &__player {
+        width: 100%;
+        
+
+        @include tablet {
+            width: 92%;
+            height: 100%;
+        }
+
+        @include desktop {
+            width: 50.5rem;
+            height: 27.75rem;
+            margin-top: 0;
+            position: relative;
+            
+        }
+
+    }
+
+    &__overlay {
+        display: flex;
+        position: relative;               
+        left: 1rem;
+        bottom: 3rem;
+        width: 90%;
+
+        @include tablet {
+            left: 2.75rem;
+            width: 88%;
+        }
+
+        @include desktop {
+            left: 14rem;
+            bottom: 3rem;
+            
+        }
+      
+    }
+
+    &__play-button {
+       @include video-controls;
+
+       @include desktop {
+            padding: .4rem 1rem;
+       }
+    }
+
+    &__scrubber-wrapper {
+        margin: auto .5rem;
+        color: black;
+        flex-grow: 2;        
+        @include video-controls;
+
+        @include tablet {
+            width: 30rem;
+            flex-grow: initial;
+            margin: auto 1rem;
+            padding: .5rem .75rem .5rem .5rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+        @include desktop {
+            width: 35rem;
+            padding: .4rem .65rem .4rem .65rem;
+        }      
+        
+        
+    }
+
+
+    &__scrubber {
+        width: 3rem;
+        height: 0;
+
+        @include tablet {
+            width: 23rem;                        
+        }
+
+        @include desktop {
+            width: 32rem;
+        }
+        
+    }
+
+    &__scrubber-time {
+        display: none;
+
+        @include tablet {
+            display: initial;
+            color: white;
+            width: 5rem;
+            margin-left: 1rem;
+            font-size: .9rem;
+        }
+
+        @include desktop {
+            margin-left: .3rem;
+            font-size: .8rem;
+            padding-bottom: .1rem;
+        }
+    }
+
+    &__fullscreen-button {
+        @include video-controls;
+        border-radius: .25rem 0 .25rem .25rem;
+        
+        @include desktop {
+            padding: .4rem 1rem;
+       }
+    }
+
+    &__volume-button {
+        @include video-controls;
+        border-radius: .25rem .25rem .25rem 0;
+
+        @include desktop {
+            padding: .4rem 1rem;
+        }
+     }
+
+
+}

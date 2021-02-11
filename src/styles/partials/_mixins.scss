@@ -1,0 +1,32 @@
+@import './variables';
+
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+  
+  @mixin mobile {
+    @media (min-width: $mobile-breakpoint) {
+      @content;
+    }
+  }
+
+  @mixin desktop {
+    @media (min-width: $desktop-breakpoint) {
+      @content;
+    }
+  }
+  
+
+@mixin video-controls {
+    padding: .5rem 1rem;
+    background-color: $black-color; 
+    opacity: 0.85;
+    border-radius: .25rem;
+}
+
+
+
+
+

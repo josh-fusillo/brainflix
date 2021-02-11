@@ -1,0 +1,122 @@
+@import '../../styles/partials/mixins';
+@import '../../styles/partials/fonts';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+.videodetails {
+
+    &__wrapper {
+        @include desktop{
+            width: 60%;
+            margin-left: 8rem;
+        }
+    }
+
+    &__header {
+        text-align: left;
+        margin: 0 0 .5rem 1rem;
+        font-family: "Avenir-Bold";
+
+        @include tablet {
+            margin-top: 3rem;
+            font-size: 2.4rem;
+        }
+
+        @include desktop {
+            font-size: 2.1rem;
+        }
+    }
+
+    &__section-wrapper {
+        @include tablet {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__artist-date-wrapper {
+        display: flex;
+        margin-left: 1rem;
+        
+    }
+
+    &__artist {
+        margin-right: 0.5rem;
+        font-weight: bold;
+    }
+
+    &__date {
+        color: $grey-normal;
+    }
+
+    &__views-likes-wrapper {
+        display: flex;
+        margin-left: 1rem;
+        
+        @include tablet {
+            margin-right: 2.25rem;
+            margin-left: 0;
+        }
+    }
+
+    &__views-icon {
+        margin-right: 0.5rem;
+    }
+
+    &__views-counter {
+        margin-right: 1rem;
+
+        @include tablet {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__likes-icon {
+        margin-right: 0.5rem;
+    }
+
+    &__text-wrapper {
+        width: 90%;
+        text-align: left;
+        margin-left: 1rem;
+        border-top: solid $grey-light 2px;
+
+        @include tablet {
+            width: 95%;
+
+        }
+
+        @include desktop {
+            width: 140%;
+        }
+    }
+
+    &__text {
+
+        line-height: 1.5rem;
+            font-size: .9rem;
+
+        @include tablet {
+            width: 74%;
+            margin-top: 2rem;
+            
+        }
+
+        @include desktop {
+            width: 85%;
+        }
+    }
+    
+
+    
+
+
+
+
+
+}

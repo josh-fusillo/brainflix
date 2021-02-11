@@ -1,0 +1,27 @@
+@import '../../styles/partials/mixins';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+.next {
+
+    @include desktop {
+        border-left: solid $grey-light 2px;
+    }
+
+    &__header {
+        color: $grey-normal;
+        font-size: .75rem;
+        text-align: left;
+        margin: 1.5rem 0 1.5rem 1rem;
+        
+    }
+
+    &__link {
+        text-decoration: none;
+    }
+}    

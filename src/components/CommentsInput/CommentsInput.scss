@@ -1,0 +1,141 @@
+@import '../../styles/partials/mixins';
+
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}  
+
+
+.comments {
+
+    &__counter {
+        margin-left: 1rem;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 2rem;
+
+       
+
+        @include desktop {
+            margin-left: 9rem;
+        }
+    }
+
+    &__wrapper {
+        display: flex;  
+        padding-bottom: 1.5rem;  
+        width: 90%;
+        border-bottom: solid 2px $grey-light;    
+        margin-left: auto;
+        margin-right: auto;
+        
+        @include tablet {
+            justify-content: space-between;
+            width: 90%;
+        }
+
+        @include desktop {
+            width: 85%;
+            margin-left: 8.5rem;
+        }
+    }
+
+   
+
+    &__circle-image {
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        background-image: url('../../assets/Images/Mohan-muruge.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: .5rem .3rem 0 0;
+
+        @include tablet {
+            margin-top: 0;
+            
+        }
+
+        @include desktop {
+            margin-left: 0;
+        }
+        
+    }
+
+    &__form {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include tablet {
+            width: 100%;
+        }
+    }
+
+       
+    &__label-join {
+        margin-left: 1.60rem;
+        margin-bottom: 0;
+        font-size: .9rem;
+        color: $grey-normal;
+        font-weight: bold;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include tablet {
+            position: relative;
+            right: 13rem;
+        }
+
+        @include desktop {
+            right: 10.75rem;
+        }
+    }
+
+    &__label-style-comments {
+        margin-top: .25rem;
+        margin-bottom: 1rem;
+        width: 12.3rem;
+        background-color: $almost-white;
+        border-radius: .25rem;
+        padding: .5rem 0 6rem 1rem;        
+        border: #E1E1E1 solid 2px;
+        font-size: 0.875rem;
+
+        @include tablet {
+            padding: .89rem 15rem .89rem 1rem;
+            margin-right: 1rem;
+        }
+
+        @include desktop {
+            padding: .89rem 17.5rem .89rem 1rem;  
+        }
+    }
+
+    &__button {
+        padding: .89rem 4.7rem;
+        border-radius: .25rem;
+        background-color: $blue-light;
+        color: $almost-white;
+        font-weight: 100;
+        font-family: "Avenir-Demi";
+        border-style: solid;
+        border: .3rem;
+
+        @include tablet {
+            padding: .95rem 2.7rem;
+            
+            
+        }
+
+        @include desktop {
+            margin-right: 2rem;
+        }
+    }
+}
+
+
