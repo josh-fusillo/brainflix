@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72c35763068661b8a697e9162f859c47",
+    "revision": "482486a854c05c1783f74493df8d1338",
     "url": "/brainflix/index.html"
   },
   {
-    "revision": "698b9040f5baa8415868",
-    "url": "/brainflix/static/css/main.dd744cd0.chunk.css"
+    "revision": "e1c017042a0e3a71ce35",
+    "url": "/brainflix/static/css/main.5cc1208c.chunk.css"
   },
   {
     "revision": "9ed3d58db32fdae0bf93",
@@ -16,40 +16,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brainflix/static/js/2.2fe12dee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "698b9040f5baa8415868",
-    "url": "/brainflix/static/js/main.2cb0b794.chunk.js"
+    "revision": "e1c017042a0e3a71ce35",
+    "url": "/brainflix/static/js/main.7d359b8f.chunk.js"
   },
   {
     "revision": "ed959d860794dc47be3d",
     "url": "/brainflix/static/js/runtime-main.13ef5770.js"
   },
   {
-    "revision": "482a9149a783989a39a397e2ebf5373f",
-    "url": "/brainflix/static/media/Icon-fullscreen.482a9149.svg"
+    "revision": "03b74b4c4dc7cd48eee599a4517f1441",
+    "url": "/brainflix/static/media/Icon-fullscreen.03b74b4c.svg"
   },
   {
-    "revision": "4895cd47751aee213c4343fbf9bae83e",
-    "url": "/brainflix/static/media/Icon-likes.4895cd47.svg"
+    "revision": "23c3f8579420d52ffd5c13ad742baa6a",
+    "url": "/brainflix/static/media/Icon-likes.23c3f857.svg"
   },
   {
-    "revision": "edecac9e1d5e5e5d29acd5ad2481fb3f",
-    "url": "/brainflix/static/media/Icon-play.edecac9e.svg"
+    "revision": "a3c51b76d2b01afe928cef3c6b522f21",
+    "url": "/brainflix/static/media/Icon-play.a3c51b76.svg"
   },
   {
-    "revision": "998eed46b18a86cebb99b01236a53b80",
-    "url": "/brainflix/static/media/Icon-search.998eed46.svg"
+    "revision": "286069001111ea3ed233483011ce0c09",
+    "url": "/brainflix/static/media/Icon-search.28606900.svg"
   },
   {
-    "revision": "1d3309e008b2977368ae8180cdd2bcd5",
-    "url": "/brainflix/static/media/Icon-upload.1d3309e0.svg"
+    "revision": "909b8976a003b06080b276c94fcfe418",
+    "url": "/brainflix/static/media/Icon-upload.909b8976.svg"
   },
   {
-    "revision": "2ceaa231afc40cc73831bec20484968f",
-    "url": "/brainflix/static/media/Icon-views.2ceaa231.svg"
+    "revision": "a488fc5b5ba8a1b910c6b8278131ffac",
+    "url": "/brainflix/static/media/Icon-views.a488fc5b.svg"
   },
   {
-    "revision": "a1be2da0309b517c103ab1a65854d0ac",
-    "url": "/brainflix/static/media/Icon-volume.a1be2da0.svg"
+    "revision": "d17c2fe7a1d599b46d1ce25f73786da2",
+    "url": "/brainflix/static/media/Icon-volume.d17c2fe7.svg"
   },
   {
     "revision": "222586f42fa280e476462914cdf70dec",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brainflix/static/media/Linotype-AvenirNextLTPro-Regular.67016125.otf"
   },
   {
-    "revision": "9049851c0871c1ffa20f8b402e6531b8",
-    "url": "/brainflix/static/media/Logo-brainflix.9049851c.svg"
+    "revision": "1e121e6bb74d3a6c39ed045da009ca40",
+    "url": "/brainflix/static/media/Logo-brainflix.1e121e6b.svg"
   },
   {
     "revision": "ba2f48f9885e020bc9bf2c8c442af56a",
